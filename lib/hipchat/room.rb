@@ -188,5 +188,9 @@ module HipChat
         raise UnknownResponseCode, "Unexpected #{response.code} for room `#{room_id}'"
       end
     end
+
+    def share_file(options = {})
+
+    end
   end
 end

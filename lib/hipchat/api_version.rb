@@ -137,6 +137,7 @@ module HipChat
           }
         }[version]
       end
+
     end
 
     class User
